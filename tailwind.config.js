@@ -10,12 +10,14 @@ module.exports = {
   ],
   theme: {
     colors: {
-      'white': '#fff'
+      white: "#fff",
+      black: "#000",
+      gray: {
+        400: "#9ca3af",
+      },
     },
     extend: {
-      boxShadow: {
-        'gray-400': '#9ca3af',
-      }
+      boxShadow: {},
     },
   },
   plugins: [],
